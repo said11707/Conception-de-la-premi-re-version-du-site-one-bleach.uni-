@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T12:25:01.454Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="8MZhVIkH74fekGu7N0MN" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T12:42:52.457Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="s4GVjYL_QNgdp0ds8u4i" version="14.1.9" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="2789" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2228" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,6 +100,15 @@
         <mxCell id="yD72ybEfyagu7YJNDBlK-79" value="format électroniques" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
           <mxGeometry x="530" y="720" width="160" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="yD72ybEfyagu7YJNDBlK-83" value="Visualiser les états de vente afférents aux différents rayons" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="940" y="450" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yD72ybEfyagu7YJNDBlK-115" value="activer des notifications&lt;br&gt;&amp;nbsp; n&#39;ayant pas atteint l&#39;objectif de vente mensuel" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="920" y="600" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yD72ybEfyagu7YJNDBlK-119" value="&lt;span style=&quot;font-family: &amp;#34;nunito sans&amp;#34; , sans-serif ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;Gérer les comptes&amp;nbsp;&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-11">
+          <mxGeometry x="950" y="800" width="160" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="yD72ybEfyagu7YJNDBlK-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yD72ybEfyagu7YJNDBlK-1" target="yD72ybEfyagu7YJNDBlK-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -155,6 +164,21 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="390" y="800" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="yD72ybEfyagu7YJNDBlK-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yD72ybEfyagu7YJNDBlK-82" target="yD72ybEfyagu7YJNDBlK-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yD72ybEfyagu7YJNDBlK-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yD72ybEfyagu7YJNDBlK-82" target="yD72ybEfyagu7YJNDBlK-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yD72ybEfyagu7YJNDBlK-82" value="Directeur de la plateforme" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="555" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yD72ybEfyagu7YJNDBlK-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="yD72ybEfyagu7YJNDBlK-118" target="yD72ybEfyagu7YJNDBlK-119">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yD72ybEfyagu7YJNDBlK-118" value="l’administrateur" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="840" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
